@@ -1,0 +1,42 @@
+[
+  {
+    "name": "inoor_real_732a143eaaad59c67156e3dae1abf16a",
+    "image": "732a143eaaad59c67156e3dae1abf16a.jpg",
+    "kind": "indoor"
+  },
+  {
+    "name": "good_case_indoor_c4379f045dfb426e93b3e405ce5cc6ed",
+    "image": "panorama.jpg",
+    "kind": "indoor"
+  },
+  {
+    "name": "good_case_indoor_20260226_case_013",
+    "image": "panorama.jpg",
+    "kind": "indoor"
+  },
+  {
+    "name": "good_case_indoor_5bb5eb9cb12c40aea6d7d62474ab4eb4",
+    "image": "panorama.jpg",
+    "kind": "indoor"
+  },
+  {
+    "name": "SkyboxAI_M3_Concept_Render_equirectangular-jpg_Hotel_in_Marrakech_lavish_5524729808_13531962",
+    "image": "M3_Concept_Render_equirectangular-jpg_Hotel_in_Marrakech_lavish_5524729808_13531962.jpg",
+    "kind": "outdoor"
+  },
+  {
+    "name": "SkyboxAI_M3_Advanced_photorender_equirectangular-jpg_Castle_in_Nairobi_an_6627634910_13513047",
+    "image": "M3_Advanced_photorender_equirectangular-jpg_Castle_in_Nairobi_an_6627634910_13513047.jpg",
+    "kind": "outdoor"
+  },
+  {
+    "name": "SkyboxAI_M3_Magic_Realism_equirectangular-jpg_Warehouse_in_Chicago_stormy_6268110505_13530598",
+    "image": "M3_Magic_Realism_equirectangular-jpg_Warehouse_in_Chicago_stormy_6268110505_13530598.jpg",
+    "kind": "outdoor"
+  },
+  {
+    "name": "SkyboxAI_M3_Magic_Realism_equirectangular-jpg_Hostel_in_Oxford_a_3241160065_13526735",
+    "image": "M3_Magic_Realism_equirectangular-jpg_Hostel_in_Oxford_a_3241160065_13526735.jpg",
+    "kind": "outdoor"
+  }
+]
