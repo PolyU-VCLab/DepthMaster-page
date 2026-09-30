@@ -21,6 +21,22 @@
   <!-- New PolyU VCLab theme overlay -->
   <link rel="stylesheet" href="./static/css/theme.css">
 
+  <!-- Override Bulma's pre styles for the bibtex block -->
+  <style>
+    #bibtex-content {
+      background: transparent !important;
+      background-color: transparent !important;
+      color: #f0f0f0 !important;
+      padding: 0 !important;
+      border: none !important;
+      border-radius: 0 !important;
+      overflow: visible !important;
+      margin: 0 !important;
+      white-space: pre-wrap !important;
+      word-break: break-word !important;
+    }
+  </style>
+
   <!-- jQuery + Bulma JS for interactive sections -->
   <script src="./static/js/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -69,6 +85,7 @@
         <span class="hero-title-main">DepthMaster</span>
         <span class="hero-title-sub">Unified Monocular Depth Estimation for Perspective and Panoramic Images</span>
       </h1>
+      <p class="venue">NeurIPS 2026</p>
       <p class="tagline">A single metric depth model for both narrow-FoV perspective images and 360° panoramas.</p>
 
       <p class="authors">
@@ -335,7 +352,7 @@
       <p class="section-lead">If you find DepthMaster useful in your research, please consider citing:</p>
       <div class="bibtex-wrap">
         <button type="button" class="copy-btn" id="copy-bibtex">Copy</button>
-        <pre id="bibtex-content">@article{wang2026depthmaster,
+        <pre id="bibtex-content" style="background:transparent;color:#f0f0f0;padding:0;border:none;border-radius:0;overflow:visible;margin:0;">@article{wang2026depthmaster,
   title         = {DepthMaster: Unified Monocular Depth Estimation for Perspective and Panoramic Images},
   author        = {Wang, Pengfei and Wang, Shihao and Chen, Liyi and Ma, Zhiyuan and Zhang, Guowen and Zhang, Lei},
   journal       = {arXiv preprint arXiv:2606.12368},
