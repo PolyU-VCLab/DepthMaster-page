@@ -226,7 +226,8 @@ body {
 /* ---------- Citation ---------- */
 .bibtex-wrap {
   position: relative;
-  background: #1a1a1a;
+  background: #fff;
+  border: 1px solid var(--c-border);
   border-radius: var(--radius);
   padding: 18px 22px;
   margin-top: 16px;
@@ -234,7 +235,7 @@ body {
 .bibtex-wrap pre {
   margin: 0;
   background: transparent !important;
-  color: #f0f0f0 !important;
+  color: #1a1a1a !important;
   font-family: 'Menlo', 'Monaco', 'Consolas', monospace;
   font-size: 13.5px;
   line-height: 1.6;
@@ -249,8 +250,8 @@ body {
   position: absolute;
   top: 12px;
   right: 12px;
-  background: #fff;
-  color: #1a1a1a;
+  background: #1a1a1a;
+  color: #fff;
   border: none;
   padding: 5px 12px;
   border-radius: 6px;
